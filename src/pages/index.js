@@ -1,4 +1,5 @@
 import React from 'react'
+import { Link } from 'gatsby'
 import '../styles/index.scss'
 import styl from './index.module.scss'
 import Layout from '../components/layout'
@@ -11,8 +12,10 @@ const Index = () => {
           <h1>
             Hello <br /> I am Ubaid Siddiqui
           </h1>
-          <p>A Frontend Web Developer</p>
-          <button>Get in touch</button>
+          <p className={styl.tagLine}>A Frontend Web Developer</p>
+          <Link to="/contact">
+            <button>Get in touch</button>
+          </Link>
         </div>
       </Layout>
     </div>

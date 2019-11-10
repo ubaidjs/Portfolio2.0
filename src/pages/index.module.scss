@@ -6,13 +6,32 @@
 
   h1 {
     font-size: 57px;
+    animation: fadeInUp 0.7s forwards;
+  }
+
+  .tagLine {
+    opacity: 0;
+    animation: fadeInUp 0.7s 0.3s forwards;
   }
 
   button {
+    opacity: 0;
     margin: 30px 0;
     padding: 7px 14px;
     background-color: #fff;
     border: 1px solid #000;
     cursor: pointer;
+    animation: fadeInUp 0.7s 0.5s forwards;
+  }
+}
+
+@keyframes fadeInUp {
+  from {
+    transform: translateY(35px);
+    opacity: 0;
+  }
+  to {
+    transform: translateY(0);
+    opacity: 1;
   }
 }
