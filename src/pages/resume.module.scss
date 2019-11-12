@@ -1,0 +1,25 @@
+.download {
+  padding: 7px 14px;
+  background-color: #fff;
+  border: 1px solid #000;
+  cursor: pointer;
+  animation: fadeInUp 0.7s forwards;
+}
+
+.buttonWrapper {
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+@keyframes fadeInUp {
+  from {
+    transform: translateY(35px);
+    opacity: 0;
+  }
+  to {
+    transform: translateY(0);
+    opacity: 1;
+  }
+}
