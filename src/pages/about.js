@@ -8,7 +8,8 @@ const About = () => {
       <div className={styl.aboutContainer}>
         <h3>About Me</h3>
         <p>
-          Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolores
+          I am still crafting my about paragraph 😐. <br />
+          Lorem ipsum dolor sit ametconsectetur adipisicing elit. Dolores
           repellendus fugiat non quae iste pariatur tempora sed ipsam libero,
           exercitationem ipsum qui culpa eum quod vitae repellat tempore ullam
           odit accusantium cupiditate modi recusandae. <br />

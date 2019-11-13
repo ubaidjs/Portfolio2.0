@@ -1,3 +1,5 @@
+@import '../styles/animation.scss';
+
 .indexContainer {
   margin-top: 10%;
   * {
@@ -29,16 +31,11 @@
     border: 1px solid #000;
     cursor: pointer;
     animation: fadeInUp 0.7s 0.5s forwards;
+    transition: all 0.5s;
   }
-}
 
-@keyframes fadeInUp {
-  from {
-    transform: translateY(35px);
-    opacity: 0;
-  }
-  to {
-    transform: translateY(0);
-    opacity: 1;
+  button:hover {
+    background-color: #000;
+    color: white;
   }
 }

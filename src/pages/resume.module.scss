@@ -1,25 +1,22 @@
+@import '../styles/animation.scss';
+
+.buttonWrapper {
+  height: 60vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
 .download {
   padding: 7px 14px;
   background-color: #fff;
   border: 1px solid #000;
   cursor: pointer;
   animation: fadeInUp 0.7s forwards;
+  transition: all 0.5s;
 }
 
-.buttonWrapper {
-  height: 100vh;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-}
-
-@keyframes fadeInUp {
-  from {
-    transform: translateY(35px);
-    opacity: 0;
-  }
-  to {
-    transform: translateY(0);
-    opacity: 1;
-  }
+.download:hover {
+  background-color: rgb(26, 26, 29);
+  color: #fff;
 }

@@ -8,20 +8,27 @@ const Header = () => {
       <Link to="/">
         <p className={styl.u}>U.</p>
       </Link>
-      <div className={styl.line}></div>
       <nav>
         <ul className={styl.navList}>
           <li>
-            <Link to="/about">About</Link>
+            <Link activeClassName={styl.activeLink} to="/about">
+              About
+            </Link>
           </li>
           <li>
-            <Link to="/resume">Resume</Link>
+            <Link activeClassName={styl.activeLink} to="/resume">
+              Resume
+            </Link>
           </li>
           <li>
-            <Link to="/projects">Projects</Link>
+            <Link activeClassName={styl.activeLink} to="/projects">
+              Projects
+            </Link>
           </li>
           <li>
-            <Link to="/contact">Contact</Link>
+            <Link activeClassName={styl.activeLink} to="/contact">
+              Contact
+            </Link>
           </li>
         </ul>
       </nav>

@@ -1,0 +1,37 @@
+@import '../styles/animation.scss';
+
+.projectContainer {
+  border: 1px solid #6d6d6d;
+  margin: 50px auto;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  animation: fadeInUp 0.5s forwards;
+}
+
+.info {
+  padding: 30px;
+}
+
+@mixin linkStyl {
+  border: 0.2px solid #6d6d6d;
+  padding: 10px 20px;
+  border-radius: 50px;
+}
+
+.live {
+  @include linkStyl();
+  margin-right: 20px;
+}
+
+.source {
+  @include linkStyl();
+}
+
+.img {
+  align-self: center;
+  padding: 30px;
+  img {
+    box-shadow: 5px 5px 20px #cacaca;
+    margin: 0;
+  }
+}
