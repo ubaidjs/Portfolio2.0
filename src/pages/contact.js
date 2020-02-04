@@ -109,24 +109,27 @@ const Contact = () => {
               placeholder="Name"
               name="name"
               ref={register({ required: true })}
+              className={[errors.name && styl.redBorder]}
             />
             <input
               type="email"
               placeholder="Email"
               name="email"
               ref={register({ required: true })}
+              className={[errors.email && styl.redBorder]}
             />
             <input
               type="text"
               placeholder="Your message"
               name="message"
               ref={register({ required: true })}
+              className={[errors.message && styl.redBorder]}
             />
             <input type="submit" value="Send" />
           </form>
-          {errors.name && <span>Name missing</span>} <br />
+          {/* {errors.name && <span>Name missing</span>} <br />
           {errors.email && <span>Email missing</span>} <br />
-          {errors.message && <span>Message missing</span>}
+          {errors.message && <span>Message missing</span>} */}
           {submit && <span>Message submitted</span>}
         </div>
         <div className={styl.copyright}>

@@ -7,17 +7,7 @@ const About = () => {
     <Layout>
       <div className={styl.aboutContainer}>
         <h3>About Me</h3>
-        <p>
-          I am still crafting my about paragraph{' '}
-          <span role="img" aria-label="Emoji"></span> 😐. <br />
-          Lorem ipsum dolor sit ametconsectetur adipisicing elit. Dolores
-          repellendus fugiat non quae iste pariatur tempora sed ipsam libero,
-          exercitationem ipsum qui culpa eum quod vitae repellat tempore ullam
-          odit accusantium cupiditate modi recusandae. <br />
-          Vitae tempora provident blanditiis saepe, et voluptate assumenda,
-          asperiores voluptates cupiditate earum deleniti excepturi enim
-          obcaecati!
-        </p>
+        <p>I am frontend web and mobile developer based in India.</p>
       </div>
     </Layout>
   )

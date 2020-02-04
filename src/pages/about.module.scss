@@ -9,7 +9,7 @@
   p {
     opacity: 0;
     animation: fadeInUp 0.5s 0.3s forwards;
-    color: #9b9b9b;
+    color: #353535;
   }
 }
 
@@ -21,5 +21,11 @@
   to {
     transform: translateY(0);
     opacity: 1;
+  }
+}
+
+@media screen and (max-width: 525px) {
+  .aboutContainer {
+    padding: 30px;
   }
 }

@@ -19,7 +19,7 @@ const Index = () => {
       <Layout>
         <div className={styl.indexContainer}>
           <h1>
-            Hello <br /> I am Ubaid Siddiqui
+            Hello, <br /> I am Ubaid Siddiqui
           </h1>
           <p className={styl.tagLine}>A Frontend Web Developer</p>
           <Link to="/contact">

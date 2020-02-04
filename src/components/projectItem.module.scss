@@ -35,3 +35,20 @@
     margin: 0;
   }
 }
+
+@media screen and (max-width: 525px) {
+  .projectContainer {
+    margin-left: 20px;
+    margin-right: 20px;
+    grid-template-columns: none;
+  }
+
+  .live {
+    display: block;
+    margin: 10px 0;
+  }
+
+  .source {
+    display: block;
+  }
+}

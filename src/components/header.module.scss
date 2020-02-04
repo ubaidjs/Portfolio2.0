@@ -7,6 +7,7 @@
 }
 
 .u {
+  color: #333;
   font-family: 'Shrikhand';
   font-size: 40px;
   margin: 26px 0;
@@ -37,4 +38,18 @@
 
 .activeLink {
   border-bottom: 2px solid grey;
+}
+
+@media screen and (max-width: 525px) {
+  .header {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .navList {
+    li {
+      // margin-left: 0;
+      margin: 0 10px;
+    }
+  }
 }
