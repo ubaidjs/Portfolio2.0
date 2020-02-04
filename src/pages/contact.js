@@ -53,7 +53,7 @@ const Contact = () => {
         <div className={styl.profiles}>
           <div className={styl.profilesItem}>
             <a
-              href="https://www.github.com/ubaid1010"
+              href="https://www.github.com/ubaidjs"
               target="_blank"
               rel="noopener noreferrer"
             >
@@ -73,7 +73,7 @@ const Contact = () => {
           </div>
           <div className={styl.profilesItem}>
             <a
-              href="https://www.twitter.com/ubaid_design"
+              href="https://www.twitter.com/ubaidjsx"
               target="_blank"
               rel="noopener noreferrer"
             >
