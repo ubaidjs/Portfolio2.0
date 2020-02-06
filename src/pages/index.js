@@ -13,8 +13,9 @@ const Index = () => {
         <title>Ubaid Siddiqui</title>
         <meta
           name="description"
-          content="I am Ubaid Siddiqui. Frontend Developer and Designer based in India. Contact Me at ubaidsid0@gmail.com"
-        ></meta>
+          content="Ubaid Siddiqui is a frontend web and android developer based in Indore, India who specializes in developing best performance websites and applications."
+        />
+				<meta name="keyword" content="Ubaid, Ubaid Siddiqui, ubaid developer, ubaid web developer, ubaid frontend, frontend developer, india, ubaid sid"/>
       </Helmet>
       <Layout>
         <div className={styl.indexContainer}>
